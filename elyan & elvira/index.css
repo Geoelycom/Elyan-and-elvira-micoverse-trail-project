@@ -1,0 +1,91 @@
+body{font-family: 'Poppins', serif;
+    font-size: 1rem;
+    font-weight:400px;
+    line-height:1.4;
+    margin:0;
+    background-color: #328ba8;
+    text-align: center;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+h1{text-align: center;
+    font-weight:400;
+    line-height:1.2;
+    background-color:#3259a8;
+}
+
+p{font-size:1.125rem;
+margin-top: 0
+margin-bottom: 0,5rem;}
+
+label{display: flex;
+    align-items: left;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+
+}
+button{display:block;
+    width: 100px;
+    padding:0.75rem;
+    background-color: green;
+    border-radius:2px;
+
+
+}
+input{
+width:100%;
+margin:8px 0;
+padding:12px 20px;
+display:inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+input[type=text],select{
+    width: 100%;
+    margin:8px 0;
+    padding:12px 20px;
+    display: inline-block;
+    border: border-size;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=submit],button{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  textarea{
+      width:100%;
+      padding-top: 10px;
+      padding-bottom:70px;
+      text-indent: 10px;
+
+  }
+
+
+.input-radio,
+.input-checkbox{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
